@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="overflow-x-hidden w-full">
         <Hero />
         <About />
         <Skills />
