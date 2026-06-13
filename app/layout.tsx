@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     "FAST NUCES",
   ],
   authors: [{ name: "Umar Farooq" }],
+  icons: {
+    icon: "/letter-u.png",
+    shortcut: "/letter-u.png",
+    apple: "/letter-u.png",
+  },
   openGraph: {
     title: "Umar Farooq — Full-Stack Developer",
     description:
