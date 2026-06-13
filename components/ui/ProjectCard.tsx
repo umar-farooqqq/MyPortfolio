@@ -14,9 +14,8 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
     <motion.div
       variants={scaleIn}
       whileHover={hoverScale}
-      className={`group relative rounded-2xl border border-border bg-card p-6 md:p-8 transition-all duration-300 hover:border-accent/50 hover:shadow-xl hover:shadow-accent/5 ${
-        project.featured ? "md:col-span-2" : ""
-      }`}
+      className={`group relative rounded-2xl border border-border bg-card p-6 md:p-8 transition-all duration-300 hover:border-accent/50 hover:shadow-xl hover:shadow-accent/5 ${project.featured ? "md:col-span-2" : ""
+        }`}
       id={`project-card-${index}`}
     >
       {/* Featured badge */}
@@ -31,14 +30,14 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
         {String(index + 1).padStart(2, "0")}
       </span>
 
-      <div className="relative z-10 mt-8">
+      <div className="relative z-10 mt-12">
         {/* Title */}
         <h3 className="text-xl font-bold text-primary mb-3 group-hover:text-accent transition-colors duration-300">
           {project.title}
         </h3>
 
         {/* Description */}
-        <p className="text-secondary text-sm leading-relaxed mb-6">
+        <p className="text-secondary text-sm leading-relaxed mb-6 text-justify">
           {project.description}
         </p>
 

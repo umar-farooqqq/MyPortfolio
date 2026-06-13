@@ -83,7 +83,7 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "AI Job Preparation & Recruitment Platform",
+    title: "QUNIX - A Unified AI Driven Ecosystem for Recruitment & Job Readiness ",
     description:
       "A full-stack unified ecosystem integrating Student, Company, and University portals. Features AI-powered resume analysis, intelligent job-candidate matching, real-time AI interviews via Vapi LLM, and an in-browser coding environment using Monaco Editor.",
     techStack: ["Next.js", "Node.js", "Express.js", "MongoDB", "Vapi LLM", "Monaco Editor"],
